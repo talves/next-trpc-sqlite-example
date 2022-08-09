@@ -31,7 +31,7 @@
     "singleQuote": true
   },
   "dependencies": {
-    "@prisma/client": "^3.0.1",
+    "@prisma/client": "^4.2.0",
     "@tanstack/react-query": "^4.0.10",
     "@trpc/client": "^10.0.0-alpha.42",
     "@trpc/next": "^10.0.0-alpha.42",
