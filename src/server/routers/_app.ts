@@ -12,6 +12,7 @@ const newRouter = t.router({
 export const appRouter = t.router({
   post: postRouter,
   health: healthRouter,
+  new: newRouter,
 });
 
 export type AppRouter = typeof appRouter;

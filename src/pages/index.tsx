@@ -6,6 +6,10 @@ const IndexPage: NextPageWithLayout = () => {
   const utils = trpc.useContext();
   const postsQuery = trpc.proxy.post.list.useQuery();
 
+  const testQuery = trpc.proxy.new.message.useQuery();
+
+  console.log(testQuery.data);
+
   const addPost = trpc.proxy.post.add.useMutation({
     async onSuccess() {
       // refetches posts after a post is added
